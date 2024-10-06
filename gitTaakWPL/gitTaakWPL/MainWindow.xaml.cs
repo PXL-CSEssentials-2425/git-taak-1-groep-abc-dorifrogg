@@ -20,5 +20,45 @@ namespace gitTaakWPL
         {
             InitializeComponent();
         }
+
+        private void imageRood_MouseEnter(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.Red;
+        }
+
+        private void imageGeel_MouseEnter(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.Yellow;
+        }
+
+        private void imageGroen_MouseEnter(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.Green;
+        }
+
+        private void imageBlauw_MouseEnter(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.Blue;
+        }
+
+        private void imageRood_MouseLeave(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.LightGray;
+        }
+
+        private void imageGeel_MouseLeave(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.LightGray;
+        }
+
+        private void imageGroen_MouseLeave(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.LightGray;
+        }
+
+        private void imageBlauw_MouseLeave(object sender, MouseEventArgs e)
+        {
+            gridMainWindow.Background = Brushes.LightGray;
+        }
     }
 }

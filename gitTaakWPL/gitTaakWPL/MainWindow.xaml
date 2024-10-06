@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:gitTaakWPL"
         mc:Ignorable="d"
         Title="Kleuren Psychologie" Height="450" Width="800">
-    <Grid Background="#FFD8D8D8">
+    <Grid x:Name="gridMainWindow" Background="LightGray">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top"/>
         <Image Margin="744,10,10,378" Source="/PXL.png" Stretch="Fill"/>
+        <Image x:Name="imageGeel" Margin="231,70,400,252" Source="/Geel.png" Stretch="Fill" MouseEnter="imageGeel_MouseEnter" MouseLeave="imageGeel_MouseLeave"/>
+        <Image x:Name="imageGroen" Margin="46,203,586,119" Source="/Groen.png" Stretch="Fill" MouseEnter="imageGroen_MouseEnter" MouseLeave="imageGroen_MouseLeave"/>
+        <Image x:Name="imageRood" Margin="46,70,586,252" Source="/Rood.png" Stretch="Fill" MouseEnter="imageRood_MouseEnter" MouseLeave="imageRood_MouseLeave"/>
+        <Image x:Name="imageBlauw" Margin="231,203,400,119" Source="/Blauw.png" Stretch="Fill" MouseEnter="imageBlauw_MouseEnter" MouseLeave="imageBlauw_MouseLeave"/>
 
     </Grid>
 </Window>
