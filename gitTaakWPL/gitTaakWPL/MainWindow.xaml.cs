@@ -60,5 +60,25 @@ namespace gitTaakWPL
         {
             gridMainWindow.Background = Brushes.LightGray;
         }
+
+        private void imageRood_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextBox.Text = "#FF0000";
+        }
+
+        private void imageGeel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextBox.Text = "#FFFF00";
+        }
+
+        private void imageGroen_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextBox.Text = "#008000";
+        }
+
+        private void imageBlauw_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            kleurcodeTextBox.Text = "#0000FF";
+        }
     }
 }
